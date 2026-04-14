@@ -1,0 +1,41 @@
+# 👤 Gestão de Utilizadores
+
+Este documento detalha os fluxos de autenticação, registo e recuperação de conta do sistema.
+
+---
+
+## 1. Criar Conta 📝
+**Descrição:** Permite que um novo cliente registe os seus dados para obter acesso às funcionalidades do aplicativo.
+
+* **🟢 Caminho Feliz:** O utilizador preenche os dados, o sistema valida e a conta é criada com sucesso.
+* **🔴 Caminho Triste:** O sistema identifica que já existe um registo associado ao e-mail introduzido.
+
+---
+
+## 2. Tela de Login 🔑
+**Descrição:** Interface central onde o utilizador introduz as suas credenciais para aceder à sua área reservada.
+
+* **🟢 Caminho Feliz:** As credenciais coincidem com a base de dados e o login é efetuado com sucesso.
+* **🔴 Caminho Triste:** O utilizador não se recorda da palavra-passe e falha a autenticação.
+
+---
+
+## 3. Recuperação de Palavra-passe 🛡️
+**Descrição:** Fluxo de emergência para utilizadores que perderam o acesso à sua conta.
+
+* **🟢 Caminho Feliz:** O sistema envia um código de verificação para o e-mail; o utilizador valida o código e define uma nova senha.
+* **🔴 Caminho Triste:** O utilizador já não tem acesso ao e-mail de registo, impossibilitando a receção do código e resultando na perda da conta.
+
+---
+
+## 4. Atualizar Utilizador & OAuth 🌐
+**Descrição:** Funcionalidade que permite a autenticação rápida utilizando provedores externos e a gestão de dados do perfil.
+
+### Autenticação Social (Google / Facebook)
+* **🟢 Caminho Feliz:** O utilizador autoriza o acesso via Google ou Facebook e entra na aplicação instantaneamente.
+* **🔴 Caminho Triste:** O utilizador não se recorda das credenciais da sua conta Google ou Facebook, falhando a ligação externa.
+
+---
+
+> [!NOTE]
+> **Nota de Implementação:** > Todos os erros de "Caminho Triste" devem apresentar mensagens claras ao utilizador, sugerindo o próximo passo (ex: link para recuperação em caso de erro no login).

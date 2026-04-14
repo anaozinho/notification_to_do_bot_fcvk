@@ -1,0 +1,53 @@
+# 🔔 Módulo 2: Notificações Multiplataforma
+
+Este documento descreve as funcionalidades de gerenciamento de alertas e integração com diferentes aplicativos de mensagens.
+
+---
+
+## 0. Notificação Multiplataforma 📱
+> **Descrição:** Como cliente, desejo ser notificado simultaneamente em até 3 aplicativos diferentes para garantir que eu veja a mensagem.
+
+* **🟢 Caminho Feliz:** O sistema dispara o alerta e o usuário recebe a notificação em todos os aplicativos configurados.
+* **🔴 Caminho Triste:** O sistema falha ao tentar comunicar-se com os provedores e a notificação não é entregue nos diferentes apps.
+
+---
+
+## ➕ 1. Adicionar Aplicativos
+> **Descrição:** Como cliente, gostaria de cadastrar diferentes tipos de aplicativos (WhatsApp, Telegram, Slack, etc.) para receber meus alertas.
+
+* **🟢 Caminho Feliz:** O usuário consegue vincular os aplicativos desejados e eles ficam prontos para receber notificações.
+* **🔴 Caminho Triste:** Erro na integração ou permissão, impedindo a adição do app e o recebimento de mensagens.
+
+---
+
+## 🗑️ 2. Remover Aplicativos
+> **Descrição:** Como cliente, gostaria de desvincular um aplicativo que cadastrei anteriormente.
+
+* **🟢 Caminho Feliz:** O aplicativo é removido da lista de integrações e para de receber alertas imediatamente.
+* **🔴 Caminho Triste:** O sistema apresenta erro ao processar a exclusão, mantendo o app indesejado na lista e gerando insatisfação.
+
+---
+
+## ⚙️ 3. Editar Configurações (Agendamento)
+> **Descrição:** Como cliente, gostaria de definir um horário específico para receber minhas notificações (ex: apenas em horário comercial).
+
+* **🟢 Caminho Feliz:** O sistema respeita a janela de tempo configurada e entrega a notificação exatamente no horário desejado.
+* **🔴 Caminho Triste:** A notificação é enviada fora do horário previsto ou não é entregue por erro de processamento.
+
+---
+
+## 🚀 4. Encaminhar Notificações
+> **Descrição:** Como cliente, desejo que o sistema realize o envio efetivo da mensagem para o meu dispositivo.
+
+* **🟢 Caminho Feliz:** A notificação é encaminhada com sucesso e chega ao dispositivo final sem atrasos.
+* **🔴 Caminho Triste:** Falha na fila de envio (gateway), impedindo que a mensagem saia do servidor para o cliente.
+
+---
+
+### 🛠️ Especificações Técnicas Sugeridas
+- **Protocolos:** Utilizar Webhooks ou APIs oficiais (Firebase, Twilio, etc.).
+- **Fila (Queue):** Implementar um sistema de filas para garantir que, se um app falhar, os outros 2 ainda recebam.
+- **Logs:** Manter registro de "Entregue" ou "Falhou" para auditoria do cliente.
+
+> [!TIP]
+> **Dica de Retenção:** Se o usuário não conseguir adicionar um app (Caminho Triste), ofereça um link direto para o tutorial de integração daquele aplicativo específico.
