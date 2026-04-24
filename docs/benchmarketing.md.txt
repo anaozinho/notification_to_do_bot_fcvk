@@ -1,0 +1,23 @@
+| Categoria        | Característica        | Google Tasks     | Microsoft To Do      | Diferencial                                 |
+|:-----------------|:----------------------|:-----------------|:---------------------|:--------------------------------------------|
+| Gestão Principal | Criação de Listas     | Sim              | Sim                  | To Do permite grupos de listas.             |
+| Gestão Principal | Subtarefas            | Sim              | Sim (Etapas)         | Visual do To Do é mais claro.               |
+| Gestão Principal | Datas de Conclusão    | Sim              | Sim                  | Ambos sincronizam com calendários.          |
+| Gestão Principal | Lembretes             | Sim              | Sim                  | Notificações push em ambos.                 |
+| Gestão Principal | Tarefas Recorrentes   | Sim              | Sim                  | To Do é mais flexível em padrões.           |
+| Gestão Principal | Anotações/Notas       | Texto simples    | Texto rico           | To Do aceita links clicáveis.               |
+| Gestão Principal | Anexos (Fotos/Docs)   | Não              | Sim (25MB)           | Vital para produtividade real.              |
+| Gestão Principal | Priorização           | Manual           | Estrela (Importante) | To Do cria lista automática de importantes. |
+| Organização      | Visão 'Meu Dia'       | Não              | Sim                  | Exclusivo do To Do para foco diário.        |
+| Organização      | Tags/Hashtags         | Não              | Sim                  | Filtro rápido por palavras-chave.           |
+| Organização      | Sugestões de IA       | Sim (Gemini)     | Sim (Copilot)        | Sugerem tarefas pendentes.                  |
+| Colaboração      | Partilha de Listas    | Não              | Sim                  | To Do é ótimo para famílias/equipas.        |
+| Colaboração      | Atribuição de Tarefas | Não              | Sim                  | Delegar tarefas a terceiros.                |
+| Integração       | Ecossistema           | Google Workspace | Microsoft 365        | Depende de onde você vive.                  |
+| Integração       | E-mail                | Gmail Lateral    | Outlook Nativo       | Tasks permite arrastar e-mail.              |
+| Integração       | Calendário            | Google Agenda    | Outlook Calendar     | Tasks vira 'Time Block' no Google.          |
+| Plataformas      | App Desktop           | Não              | Sim (Windows/Mac)    | To Do tem app dedicado e robusto.           |
+| Plataformas      | Web                   | Sim              | Sim                  | Ambos acessíveis via browser.               |
+| Personalização   | Temas/Cores           | Não              | Sim                  | To Do permite fundos personalizados.        |
+| Personalização   | Modo Escuro           | Sim              | Sim                  | Nativo em ambos.                            |
+

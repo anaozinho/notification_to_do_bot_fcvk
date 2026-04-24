@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<body>
+    <h2>Usuários</h2>
+    <input id="n" placeholder="Nome">
+    <input id="e" placeholder="Email">
+    <button onclick="add()">Salvar</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        // Carrega o que já existe
+        lista.innerHTML = localStorage.getItem('u') || '';
+
+        function add() {
+            if(!n.value) return;
+            
+            // Cria o item da lista com um botão de excluir
+            const novo = `<li>${n.value} (${e.value}) 
+                <button onclick="this.parentElement.remove(); save()">X</button>
+            </li>`;
+            
+            lista.innerHTML += novo;
+            save();
+            n.value = ''; e.value = '';
+        }
+
+        function save() {
+            localStorage.setItem('u', lista.innerHTML);
+        }
+    </script>
+</body>
+</html>
