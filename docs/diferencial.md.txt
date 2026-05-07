@@ -1,0 +1,35 @@
+# 🚀 ContextDo: Task Management by Energy
+
+Um gestor de tarefas inteligente que resolve a "paralisia por análise". Enquanto o **Google Tasks** e o **Microsoft To Do** são listas passivas, o **ContextDo** adapta-se ao seu estado biológico e mental.
+
+---
+
+## ⚖️ O Diferencial (Benchmark vs Gigantes)
+
+Diferente dos líderes de mercado, o ContextDo introduz o conceito de **Filtro de Contexto Energético**:
+
+| Funcionalidade | Google Tasks | Microsoft To Do | ContextDo (O Meu Site) |
+| :--- | :---: | :---: | :---: |
+| **Filtro por Energia** | ❌ | ❌ | ✅ **Sim** |
+| **Tempo Estimado** | ❌ | ❌ | ✅ **Sim** |
+| **Sugestão de Pausa** | ❌ | ❌ | ✅ **Sim** |
+| **Interface** | Minimalista | Visual | **Adaptativa** |
+
+---
+
+## 💡 O Problema que Resolvo
+Muitas vezes abrimos a nossa lista de tarefas e ficamos bloqueados porque temos 50 itens. O cérebro não sabe por onde começar quando estamos cansados.
+**A Solução:** O utilizador indica quanta energia tem (Baixa, Média, Alta) e o sistema oculta tudo o que não é produtivo para aquele momento.
+
+---
+
+## 🛠️ Protótipo (MVP)
+
+O núcleo do sistema utiliza um motor de filtragem dinâmica:
+
+### Lógica de Filtragem (Snippet JS)
+```javascript
+// O coração do diferencial: Filtrar por estado mental e não apenas data
+const filterByState = (tasks, userEnergy) => {
+    return tasks.filter(task => task.energyLevel === userEnergy);
+};
