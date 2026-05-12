@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1 style="color:DOdgerBlue;">jhoninha delicioso delas</h1>
+<p style="color:SlateBlue;">corriculo do menor jhoninha.</p>
+<p style="backgroud-color:rgb(159, 0, 255);"> sou rei do highlights no rp </p>
+<p style="color:DodgerBlue;">sou o pai da noise
+<p style="color:DodgerBlue;">sou viciado em jogos online
+<p style="color:DodgerBlue;">gosto de jogo de tiro
+<p style="color:DodgerBlue;">sou um mlk chavoso e meu bonde odeia swag ass:mc mazza
+<p style="color:DodgerBlue;">apenas um mlk tranquilo e estiloso
+</body>
+</html>
+
