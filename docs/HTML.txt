@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo do Jhoninha</title>
+</head>
+<body style="background-image: url('https://www.hdwallpapers.in/thumbs/2020/akatsuki_naruto_itachi_uchiha_obito_uchiha_hd_anime-t2.jpg'); background-attachment: fixed; background-color: #111;">
+    <div style="background-color: rgba(255, 255, 255, 0.8); margin: 20px; padding: 20px; border-radius: 15px;"> 
+               <header>
+        <h1 style="color:DodgerBlue;">jhoninha midia</h1>
+        <hr>
+    </header>
+    <main>
+        <h2 style="color:SlateBlue;">corriculo do menor jhoninha.</h2>
+        <ul>
+            <li style="font-size:15px; color:DodgerBlue;">sou viciado: <strong>em jogos online</strong></li>
+            <li style="font-size:15px; color:DodgerBlue;">gaara 00</li>
+            <li style="font-size:15px; color:DodgerBlue;">sou um mlk chavoso e meu bonde odeia <em>swag</em> ass:mc mazza</li>
+            <li style="font-size:15px; color:DodgerBlue;">apenas um mlk tranquilo e estiloso</li>
+        </ul>    
+        <p>Acompanhe meu bonde: <a href="https://www.youtube.com/@feelsjt00" target="_blank">Clique aqui</a></p>
+        <p style="font-size:15px; color:DodgerBlue;">
+    Me siga no <strong>Instagram</strong>: 
+    <a href="https://www.instagram.com/__feelsjt/" target="_blank">Clique aqui</a>
+</p>
+
+<p style="font-size:15px; color:DodgerBlue;">
+    Me siga no <strong>TikTok</strong>: 
+    <a href="https://www.tiktok.com/@jl2f__" target="_blank">Clique aqui</a>
+</p>
+    </main>
+</body>
+</html>
